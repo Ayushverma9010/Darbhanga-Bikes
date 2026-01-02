@@ -1,0 +1,410 @@
+═══════════════════════════════════════════════════════════════════════════════
+                    DARBHANGA BIKES - COMPLETE SETUP GUIDE
+═══════════════════════════════════════════════════════════════════════════════
+
+This guide will help you set up and run the Darbhanga Bikes Android project in 
+Google Project IDX or any development environment.
+
+═══════════════════════════════════════════════════════════════════════════════
+                            WHAT'S BEEN FIXED
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ FIXED: JitPack 401 Unauthorized errors
+   - Replaced: runtime-permission-kotlin → PermissionX (better alternative)
+   - Replaced: Anko Commons → Standard Kotlin extensions
+   - Replaced: Volley → Retrofit (industry standard)
+
+✅ FIXED: Modern dependencies and stable versions
+   - Firebase BoM 32.7.0 (ensures compatibility)
+   - Google Maps SDK 18.2.0
+   - Navigation Component 2.7.5
+   - All libraries are from Maven Central or Google repositories
+
+✅ FIXED: Gradle configuration
+   - Gradle 8.2 (stable)
+   - Android Gradle Plugin 8.1.4
+   - Kotlin 1.9.20
+   - Proper repository configuration
+
+✅ INCLUDED: Your Google Maps API Key
+   - API Key: AIzaSyAVc7-bftMhFsDwsVk8B8yczSM2PkI8Bs0
+   - Already configured in app/build.gradle
+
+✅ RENAMED: App name changed to "Darbhanga Bikes"
+   - Package: com.froyo.darbhangabikes
+   - All strings and resources updated
+
+═══════════════════════════════════════════════════════════════════════════════
+                        STEP 1: FIREBASE CONFIGURATION
+═══════════════════════════════════════════════════════════════════════════════
+
+You mentioned you already created "Darbhanga Bikes" Firebase project. Great!
+Now follow these steps:
+
+1. GET YOUR google-services.json FILE:
+   ─────────────────────────────────
+   a) Go to: https://console.firebase.google.com/
+   b) Select your "Darbhanga Bikes" project
+   c) Click on Project Settings (gear icon)
+   d) Scroll down to "Your apps"
+   e) Click on your Android app or add new app:
+      - Package name: com.froyo.darbhangabikes
+      - App nickname: Darbhanga Bikes
+   f) Download the google-services.json file
+
+2. REPLACE THE TEMPLATE FILE:
+   ─────────────────────────────────
+   - Delete: app/google-services.json (current template)
+   - Add: Your downloaded google-services.json to app/ folder
+
+3. ENSURE SHA-1 AND SHA-256 ARE ADDED:
+   ─────────────────────────────────
+   You mentioned you already added these. Verify:
+   a) In Firebase Console → Project Settings → Your Apps
+   b) Scroll to "SHA certificate fingerprints"
+   c) Ensure both SHA-1 and SHA-256 are listed
+
+   If you need to regenerate:
+   
+   For Project IDX or Linux:
+   ```
+   keytool -list -v -alias androiddebugkey \
+   -keystore ~/.android/debug.keystore \
+   -storepass android -keypass android
+   ```
+
+4. ENABLE REQUIRED SERVICES IN FIREBASE:
+   ─────────────────────────────────
+   a) Authentication:
+      - Go to Authentication → Sign-in method
+      - Enable: Phone, Google, Email/Password
+   
+   b) Cloud Firestore:
+      - Go to Firestore Database
+      - Create database (start in test mode for now)
+   
+   c) Realtime Database:
+      - Go to Realtime Database
+      - Create database (start in test mode for now)
+   
+   d) Storage:
+      - Go to Storage
+      - Get started (start in test mode for now)
+
+═══════════════════════════════════════════════════════════════════════════════
+                        STEP 2: GOOGLE MAPS CONFIGURATION
+═══════════════════════════════════════════════════════════════════════════════
+
+Your API key is already configured, but ensure it's properly set up:
+
+1. VERIFY API KEY IN GOOGLE CLOUD CONSOLE:
+   ─────────────────────────────────
+   a) Go to: https://console.cloud.google.com/
+   b) Select your project (should be linked to Firebase)
+   c) Go to: APIs & Services → Credentials
+   d) Find your API key: AIzaSyAVc7-bftMhFsDwsVk8B8yczSM2PkI8Bs0
+
+2. ENABLE REQUIRED APIS:
+   ─────────────────────────────────
+   Go to: APIs & Services → Library
+   Enable these APIs:
+   ✓ Maps SDK for Android
+   ✓ Places API
+   ✓ Directions API
+   ✓ Geocoding API
+   ✓ Geolocation API
+
+3. (OPTIONAL) RESTRICT YOUR API KEY:
+   ─────────────────────────────────
+   For security (do this later for production):
+   a) Click on your API key
+   b) Under "Application restrictions":
+      - Select "Android apps"
+      - Click "Add an app"
+      - Package name: com.froyo.darbhangabikes
+      - Add your SHA-1 fingerprint
+   c) Under "API restrictions":
+      - Select "Restrict key"
+      - Choose only the APIs you enabled above
+
+═══════════════════════════════════════════════════════════════════════════════
+                    STEP 3: PROJECT STRUCTURE OVERVIEW
+═══════════════════════════════════════════════════════════════════════════════
+
+Here's what's included in the project:
+
+📁 PROJECT ROOT
+├── 📄 build.gradle                  → Project-level Gradle config
+├── 📄 settings.gradle                → Project settings
+├── 📄 gradle.properties              → Gradle properties
+├── 📄 README.md                      → Comprehensive documentation
+├── 📄 SETUP_GUIDE.txt                → This file
+├── 📄 .gitignore                     → Git ignore rules
+│
+└── 📁 app/
+    ├── 📄 build.gradle               → App-level Gradle config (FIXED!)
+    ├── 📄 google-services.json       → REPLACE THIS with yours
+    ├── 📄 proguard-rules.pro         → ProGuard rules
+    │
+    └── 📁 src/main/
+        ├── 📄 AndroidManifest.xml    → App manifest with permissions
+        │
+        ├── 📁 java/com/froyo/darbhangabikes/
+        │   ├── 📄 DarbhangaBikesApp.kt        → Application class
+        │   │
+        │   ├── 📁 ui/
+        │   │   ├── 📄 MainActivity.kt
+        │   │   ├── 📁 home/
+        │   │   │   └── 📄 HomeFragment.kt
+        │   │   ├── 📁 rides/
+        │   │   │   └── 📄 RidesFragment.kt
+        │   │   └── 📁 profile/
+        │   │       └── 📄 ProfileFragment.kt
+        │   │
+        │   └── 📁 data/
+        │       └── 📁 model/
+        │           ├── 📄 User.kt
+        │           ├── 📄 Ride.kt
+        │           └── 📄 LocationData.kt
+        │
+        └── 📁 res/
+            ├── 📁 layout/            → XML layouts
+            ├── 📁 values/            → strings.xml, colors.xml, themes.xml
+            ├── 📁 navigation/        → Navigation graph
+            ├── 📁 menu/              → Bottom navigation menu
+            └── 📁 xml/               → Backup rules, data extraction
+
+═══════════════════════════════════════════════════════════════════════════════
+                STEP 4: BUILDING THE PROJECT (PROJECT IDX)
+═══════════════════════════════════════════════════════════════════════════════
+
+FOR PROJECT IDX ENVIRONMENT:
+
+1. UPLOAD THE PROJECT:
+   ─────────────────────────────────
+   a) Extract the DarbhangaBikes.zip file
+   b) Upload to your Project IDX workspace
+   
+   OR if using command line:
+   ```
+   unzip DarbhangaBikes.zip
+   cd DarbhangaBikes
+   ```
+
+2. ENSURE JAVA 11 IS CONFIGURED:
+   ─────────────────────────────────
+   In Project IDX, your dev.nix should have:
+   ```nix
+   { pkgs }: {
+     channel = "stable-23.11";
+     packages = [
+       pkgs.jdk11
+       pkgs.android-studio
+     ];
+     
+     env = {
+       JAVA_HOME = "${pkgs.jdk11}";
+     };
+   }
+   ```
+
+3. MAKE GRADLEW EXECUTABLE:
+   ─────────────────────────────────
+   ```bash
+   chmod +x gradlew
+   ```
+
+4. CLEAN BUILD (FIRST TIME):
+   ─────────────────────────────────
+   ```bash
+   ./gradlew clean
+   ```
+
+5. BUILD THE PROJECT:
+   ─────────────────────────────────
+   ```bash
+   ./gradlew build
+   ```
+   
+   OR for debug APK:
+   ```bash
+   ./gradlew assembleDebug
+   ```
+
+6. IF BUILD FAILS:
+   ─────────────────────────────────
+   a) Delete .gradle folder:
+      ```bash
+      rm -rf .gradle
+      rm -rf app/build
+      ```
+   
+   b) Try again:
+      ```bash
+      ./gradlew clean build --refresh-dependencies
+      ```
+
+═══════════════════════════════════════════════════════════════════════════════
+            STEP 5: BUILDING IN ANDROID STUDIO (ALTERNATIVE)
+═══════════════════════════════════════════════════════════════════════════════
+
+IF YOU WANT TO USE ANDROID STUDIO:
+
+1. OPEN PROJECT:
+   ─────────────────────────────────
+   - Launch Android Studio
+   - File → Open
+   - Select the DarbhangaBikes folder
+   - Wait for Gradle sync
+
+2. IF GRADLE SYNC FAILS:
+   ─────────────────────────────────
+   - File → Invalidate Caches / Restart
+   - Build → Clean Project
+   - Build → Rebuild Project
+
+3. RUN THE APP:
+   ─────────────────────────────────
+   - Connect Android device or start emulator
+   - Click Run button (green play icon)
+   - Or press: Shift + F10
+
+═══════════════════════════════════════════════════════════════════════════════
+                    STEP 6: TESTING THE APPLICATION
+═══════════════════════════════════════════════════════════════════════════════
+
+1. VERIFY APP LAUNCHES:
+   ─────────────────────────────────
+   - App should show "Darbhanga Bikes" as name
+   - Bottom navigation with: Home, Rides, Profile
+   - No crashes on startup
+
+2. TEST MAPS (if Maps API configured):
+   ─────────────────────────────────
+   - Home screen should show map placeholder
+   - Later you can add actual map fragment
+
+3. TEST FIREBASE CONNECTION:
+   ─────────────────────────────────
+   - Check Firebase Console → Analytics
+   - Should see app connecting
+
+═══════════════════════════════════════════════════════════════════════════════
+                    TROUBLESHOOTING COMMON ISSUES
+═══════════════════════════════════════════════════════════════════════════════
+
+ISSUE 1: "Could not find com.google.gms:google-services"
+SOLUTION:
+   - Ensure google-services.json is in app/ folder
+   - Check that it's the correct file from YOUR Firebase project
+
+ISSUE 2: "Failed to resolve: androidx.navigation:navigation-fragment-ktx"
+SOLUTION:
+   - Run: ./gradlew clean build --refresh-dependencies
+   - Check internet connection
+
+ISSUE 3: "Duplicate class found in modules"
+SOLUTION:
+   - Delete .gradle folder
+   - Run: ./gradlew clean build
+
+ISSUE 4: Maps not showing
+SOLUTION:
+   - Verify API key is enabled in Google Cloud Console
+   - Check that Maps SDK for Android is enabled
+   - Ensure SHA-1 is added to Firebase
+
+ISSUE 5: "google-services.json is missing"
+SOLUTION:
+   - Download from Firebase Console
+   - Place in app/ folder (NOT in src/ or main/)
+
+═══════════════════════════════════════════════════════════════════════════════
+                        NEXT DEVELOPMENT STEPS
+═══════════════════════════════════════════════════════════════════════════════
+
+The project is now ready for development. Here's what you should implement next:
+
+1. AUTHENTICATION FLOW:
+   ─────────────────────────────────
+   - Implement login screen
+   - Phone OTP verification
+   - Google Sign-In
+   - User registration
+
+2. RIDE BOOKING:
+   ─────────────────────────────────
+   - Add Google Maps fragment to HomeFragment
+   - Implement location picker
+   - Create ride booking flow
+   - Add fare calculation
+
+3. REAL-TIME FEATURES:
+   ─────────────────────────────────
+   - Live location tracking
+   - Driver assignment
+   - Ride status updates
+   - In-app notifications
+
+4. PROFILE & HISTORY:
+   ─────────────────────────────────
+   - Complete profile screen
+   - Ride history with RecyclerView
+   - Rating system
+   - Payment methods
+
+═══════════════════════════════════════════════════════════════════════════════
+                            IMPORTANT REMINDERS
+═══════════════════════════════════════════════════════════════════════════════
+
+⚠️  SECURITY:
+    - Never commit google-services.json to public repositories
+    - Restrict API keys before production
+    - Update Firebase security rules before going live
+
+⚠️  TESTING:
+    - Test on multiple devices
+    - Test on different Android versions (API 21+)
+    - Test with different network conditions
+
+⚠️  PERMISSIONS:
+    - Handle runtime permissions properly
+    - Explain to users why you need each permission
+    - Handle permission denial gracefully
+
+═══════════════════════════════════════════════════════════════════════════════
+                            QUICK REFERENCE
+═══════════════════════════════════════════════════════════════════════════════
+
+Package Name:    com.froyo.darbhangabikes
+App Name:        Darbhanga Bikes
+Min SDK:         21 (Android 5.0)
+Target SDK:      34 (Android 14)
+Gradle:          8.2
+Kotlin:          1.9.20
+
+Google Maps API: AIzaSyAVc7-bftMhFsDwsVk8B8yczSM2PkI8Bs0
+
+Firebase Project: Darbhanga Bikes (your project)
+
+═══════════════════════════════════════════════════════════════════════════════
+                            SUPPORT & RESOURCES
+═══════════════════════════════════════════════════════════════════════════════
+
+📚 Documentation:
+   - Firebase: https://firebase.google.com/docs
+   - Google Maps: https://developers.google.com/maps/documentation
+   - Android: https://developer.android.com/
+
+💬 Need Help?
+   - Stack Overflow: https://stackoverflow.com/
+   - Android Developers: https://developer.android.com/community
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎉 You're all set! Follow the steps above and you'll have a working 
+   Darbhanga Bikes app running in no time!
+
+Good luck with your development! 🚀
+
+═══════════════════════════════════════════════════════════════════════════════

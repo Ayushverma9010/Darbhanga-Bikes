@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFA000</color>
+    <color name="colorAccent">#FF5722</color>
+    
+    <!-- Material Design 3 Colors -->
+    <color name="md_theme_light_primary">#FFC107</color>
+    <color name="md_theme_light_onPrimary">#000000</color>
+    <color name="md_theme_light_primaryContainer">#FFE082</color>
+    <color name="md_theme_light_onPrimaryContainer">#1F1B13</color>
+    <color name="md_theme_light_secondary">#FF5722</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#FFCCBC</color>
+    <color name="md_theme_light_onSecondaryContainer">#2C1512</color>
+    <color name="md_theme_light_tertiary">#795548</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#D7CCC8</color>
+    <color name="md_theme_light_onTertiaryContainer">#2C1512</color>
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+    <color name="md_theme_light_background">#FFFBFF</color>
+    <color name="md_theme_light_onBackground">#1C1B1F</color>
+    <color name="md_theme_light_surface">#FFFBFF</color>
+    <color name="md_theme_light_onSurface">#1C1B1F</color>
+    <color name="md_theme_light_surfaceVariant">#E7E0EC</color>
+    <color name="md_theme_light_onSurfaceVariant">#49454F</color>
+    <color name="md_theme_light_outline">#79747E</color>
+    <color name="md_theme_light_inverseOnSurface">#F4EFF4</color>
+    <color name="md_theme_light_inverseSurface">#313033</color>
+    <color name="md_theme_light_inversePrimary">#D0BCFF</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="md_theme_dark_primary">#FFD54F</color>
+    <color name="md_theme_dark_onPrimary">#3E2D16</color>
+    <color name="md_theme_dark_primaryContainer">#574428</color>
+    <color name="md_theme_dark_onPrimaryContainer">#FFE082</color>
+    <color name="md_theme_dark_secondary">#FF8A65</color>
+    <color name="md_theme_dark_onSecondary">#5F1515</color>
+    <color name="md_theme_dark_secondaryContainer">#7C2D24</color>
+    <color name="md_theme_dark_onSecondaryContainer">#FFCCBC</color>
+    <color name="md_theme_dark_tertiary">#BCAAA4</color>
+    <color name="md_theme_dark_onTertiary">#442921</color>
+    <color name="md_theme_dark_tertiaryContainer">#5D3F37</color>
+    <color name="md_theme_dark_onTertiaryContainer">#D7CCC8</color>
+    <color name="md_theme_dark_error">#FFB4AB</color>
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+    <color name="md_theme_dark_onError">#690005</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+    <color name="md_theme_dark_background">#1C1B1F</color>
+    <color name="md_theme_dark_onBackground">#E6E1E5</color>
+    <color name="md_theme_dark_surface">#1C1B1F</color>
+    <color name="md_theme_dark_onSurface">#E6E1E5</color>
+    <color name="md_theme_dark_surfaceVariant">#49454F</color>
+    <color name="md_theme_dark_onSurfaceVariant">#CAC4D0</color>
+    <color name="md_theme_dark_outline">#938F99</color>
+    <color name="md_theme_dark_inverseOnSurface">#1C1B1F</color>
+    <color name="md_theme_dark_inverseSurface">#E6E1E5</color>
+    <color name="md_theme_dark_inversePrimary">#6750A4</color>
+    
+    <!-- Common UI Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="light_grey">#E0E0E0</color>
+    <color name="dark_grey">#616161</color>
+    <color name="red">#F44336</color>
+    <color name="green">#4CAF50</color>
+    <color name="blue">#2196F3</color>
+    <color name="orange">#FF9800</color>
+    
+    <!-- Status Colors -->
+    <color name="status_bar_color">#FFA000</color>
+    <color name="nav_bar_color">#FFFFFF</color>
+    
+    <!-- Ride Status Colors -->
+    <color name="ride_searching">#FFB74D</color>
+    <color name="ride_accepted">#81C784</color>
+    <color name="ride_ongoing">#64B5F6</color>
+    <color name="ride_completed">#A5D6A7</color>
+    <color name="ride_cancelled">#E57373</color>
+</resources>

@@ -1,0 +1,139 @@
+═══════════════════════════════════════════════════════════════
+                    QUICK START GUIDE
+          Get Darbhanga Bikes Running in 5 Minutes!
+═══════════════════════════════════════════════════════════════
+
+📋 CHECKLIST - Do These 4 Things:
+═══════════════════════════════════════════════════════════════
+
+[ ] 1. Replace google-services.json
+[ ] 2. Enable Firebase services
+[ ] 3. Make gradlew executable
+[ ] 4. Build the project
+
+═══════════════════════════════════════════════════════════════
+              STEP 1: REPLACE google-services.json
+═══════════════════════════════════════════════════════════════
+
+🔥 Go to: https://console.firebase.google.com/
+
+1. Select "Darbhanga Bikes" project
+2. Click ⚙️ → Project Settings
+3. Scroll to "Your apps"
+4. If no Android app exists, click "Add app" → Android:
+   • Package name: com.froyo.darbhangabikes
+   • App nickname: Darbhanga Bikes
+   • Add SHA-1 and SHA-256 (you said you already did this ✓)
+5. Download google-services.json
+6. Replace app/google-services.json with your downloaded file
+
+═══════════════════════════════════════════════════════════════
+              STEP 2: ENABLE FIREBASE SERVICES
+═══════════════════════════════════════════════════════════════
+
+In Firebase Console (https://console.firebase.google.com/):
+
+📱 Authentication:
+   • Go to: Build → Authentication → Sign-in method
+   • Enable: Phone ✓
+   • Enable: Google ✓
+   • Enable: Email/Password ✓
+
+💾 Cloud Firestore:
+   • Go to: Build → Firestore Database
+   • Click "Create database"
+   • Start in test mode (for now)
+
+💾 Realtime Database:
+   • Go to: Build → Realtime Database
+   • Click "Create Database"
+   • Start in test mode (for now)
+
+📦 Storage:
+   • Go to: Build → Storage
+   • Click "Get started"
+   • Start in test mode (for now)
+
+═══════════════════════════════════════════════════════════════
+              STEP 3: MAKE GRADLEW EXECUTABLE
+═══════════════════════════════════════════════════════════════
+
+In your terminal (Project IDX or Linux):
+
+cd DarbhangaBikes
+chmod +x gradlew
+
+═══════════════════════════════════════════════════════════════
+              STEP 4: BUILD THE PROJECT
+═══════════════════════════════════════════════════════════════
+
+Option A - Using Gradle (Project IDX):
+--------------------------------------
+./gradlew clean
+./gradlew assembleDebug
+
+If it fails, try:
+./gradlew clean build --refresh-dependencies
+
+
+Option B - Using Android Studio:
+--------------------------------
+1. File → Open → Select DarbhangaBikes folder
+2. Wait for Gradle sync
+3. Build → Clean Project
+4. Build → Rebuild Project
+5. Run → Run 'app'
+
+
+═══════════════════════════════════════════════════════════════
+              THAT'S IT! 🎉
+═══════════════════════════════════════════════════════════════
+
+If everything worked:
+✅ App should compile without errors
+✅ App name: "Darbhanga Bikes"
+✅ Package: com.froyo.darbhangabikes
+✅ No 401 JitPack errors (FIXED!)
+✅ Google Maps API key already configured
+
+
+═══════════════════════════════════════════════════════════════
+              TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+❌ Problem: "google-services.json is missing"
+✅ Solution: Follow Step 1 above
+
+❌ Problem: "401 Unauthorized" from JitPack
+✅ Solution: Already fixed! We replaced those libraries.
+
+❌ Problem: Build fails
+✅ Solution: 
+   rm -rf .gradle
+   rm -rf app/build
+   ./gradlew clean build --refresh-dependencies
+
+❌ Problem: Maps not showing
+✅ Solution: Verify in Google Cloud Console:
+   1. Maps SDK for Android is enabled
+   2. API key restrictions allow your package name
+   3. SHA-1 is added to Firebase
+
+═══════════════════════════════════════════════════════════════
+              MORE HELP
+═══════════════════════════════════════════════════════════════
+
+📖 Full documentation: See README.md
+📋 Detailed setup: See SETUP_GUIDE.txt
+🔧 Project structure: See README.md
+
+Your Google Maps API Key (already configured):
+AIzaSyAVc7-bftMhFsDwsVk8B8yczSM2PkI8Bs0
+
+Package Name (already set):
+com.froyo.darbhangabikes
+
+═══════════════════════════════════════════════════════════════
+
+Happy coding! 🚀
+
