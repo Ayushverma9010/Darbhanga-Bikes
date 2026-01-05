@@ -27,7 +27,7 @@ Google Project IDX or any development environment.
    - Proper repository configuration
 
 ✅ INCLUDED: Your Google Maps API Key
-   - API Key: AIzaSyAVc7-bftMhFsDwsVk8B8yczSM2PkI8Bs0
+   - API Key: AIzaSyBwmvCEBSpkvWDdLUj96u246Qmse5btfp0
    - Already configured in app/build.gradle
 
 ✅ RENAMED: App name changed to "Darbhanga Bikes"
@@ -102,7 +102,7 @@ Your API key is already configured, but ensure it's properly set up:
    a) Go to: https://console.cloud.google.com/
    b) Select your project (should be linked to Firebase)
    c) Go to: APIs & Services → Credentials
-   d) Find your API key: AIzaSyAVc7-bftMhFsDwsVk8B8yczSM2PkI8Bs0
+   d) Find your API key: AIzaSyBwmvCEBSpkvWDdLUj96u246Qmse5btfp0
 
 2. ENABLE REQUIRED APIS:
    ─────────────────────────────────
@@ -383,7 +383,7 @@ Target SDK:      34 (Android 14)
 Gradle:          8.2
 Kotlin:          1.9.20
 
-Google Maps API: AIzaSyAVc7-bftMhFsDwsVk8B8yczSM2PkI8Bs0
+Google Maps API: AIzaSyBwmvCEBSpkvWDdLUj96u246Qmse5btfp0
 
 Firebase Project: Darbhanga Bikes (your project)
 

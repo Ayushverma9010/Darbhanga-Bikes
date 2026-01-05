@@ -1,34 +1,41 @@
 {
   "project_info": {
-    "project_number": "YOUR_PROJECT_NUMBER",
-    "firebase_url": "https://YOUR_PROJECT_ID.firebaseio.com",
-    "project_id": "YOUR_PROJECT_ID",
-    "storage_bucket": "YOUR_PROJECT_ID.appspot.com"
+    "project_number": "6123939446",
+    "project_id": "darbhanga-bikes-bda44",
+    "storage_bucket": "darbhanga-bikes-bda44.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "YOUR_MOBILE_SDK_APP_ID",
+        "mobilesdk_app_id": "1:6123939446:android:c72d3872e64fa24bcba157",
         "android_client_info": {
           "package_name": "com.froyo.darbhangabikes"
         }
       },
       "oauth_client": [
         {
-          "client_id": "YOUR_WEB_CLIENT_ID.apps.googleusercontent.com",
+          "client_id": "6123939446-rrf5fj9mjoueo4eg6bvg426tv7sjmr4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.froyo.darbhangabikes",
+            "certificate_hash": "5e6add74ffe573e69d194c9e9cc0c7416f395d84"
+          }
+        },
+        {
+          "client_id": "6123939446-c5uj2j3m7rcm0knd9jtl4fa8rhokq57p.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "YOUR_API_KEY"
+          "current_key": "AIzaSyDeSCIJrrE0TmhP6oK7tuP3PHH0eB0VbAQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "YOUR_WEB_CLIENT_ID.apps.googleusercontent.com",
+              "client_id": "6123939446-c5uj2j3m7rcm0knd9jtl4fa8rhokq57p.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -26,7 +26,10 @@ data class Ride(
     val createdAt: Long = System.currentTimeMillis(),
     val acceptedAt: Long = 0L,
     val startedAt: Long = 0L,
-    val completedAt: Long = 0L
+    val completedAt: Long = 0L,
+
+    // ✅ YEH FIELD ZAROORI HAI (Live Tracking ke liye)
+    val driverLocation: GeoPoint? = null
 )
 
 enum class RideStatus {

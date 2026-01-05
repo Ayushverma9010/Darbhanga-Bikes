@@ -1,0 +1,76 @@
+com.froyo.darbhangabikes.app-jetified-circleimageview-3.1.0-0 /home/user/.gradle/caches/transforms-4/00463d5e1344f9117d01951ae96686fc/transformed/jetified-circleimageview-3.1.0/res
+com.froyo.darbhangabikes.app-jetified-profileinstaller-1.3.0-1 /home/user/.gradle/caches/transforms-4/00c2e6dcf11557f503a5892b81e3fffb/transformed/jetified-profileinstaller-1.3.0/res
+com.froyo.darbhangabikes.app-jetified-permissionx-1.7.1-2 /home/user/.gradle/caches/transforms-4/01db8206973693811e1b45718c74edb9/transformed/jetified-permissionx-1.7.1/res
+com.froyo.darbhangabikes.app-constraintlayout-2.1.4-3 /home/user/.gradle/caches/transforms-4/050d01abec1283f4d80c9827fad37e9e/transformed/constraintlayout-2.1.4/res
+com.froyo.darbhangabikes.app-navigation-ui-2.7.5-4 /home/user/.gradle/caches/transforms-4/07f0e3c410fd284658e91569534b0c15/transformed/navigation-ui-2.7.5/res
+com.froyo.darbhangabikes.app-core-runtime-2.2.0-5 /home/user/.gradle/caches/transforms-4/08706c02dea13705e791e2fc7b1ae7c7/transformed/core-runtime-2.2.0/res
+com.froyo.darbhangabikes.app-navigation-ui-ktx-2.7.5-6 /home/user/.gradle/caches/transforms-4/099f219a2de4f6ce314272afa163544a/transformed/navigation-ui-ktx-2.7.5/res
+com.froyo.darbhangabikes.app-jetified-savedstate-ktx-1.2.1-7 /home/user/.gradle/caches/transforms-4/11c0a86cd770e4c655e7538ec82ca4c0/transformed/jetified-savedstate-ktx-1.2.1/res
+com.froyo.darbhangabikes.app-jetified-play-services-measurement-api-21.5.0-8 /home/user/.gradle/caches/transforms-4/1349ddbfae171c63b3ef5b8b632f57ea/transformed/jetified-play-services-measurement-api-21.5.0/res
+com.froyo.darbhangabikes.app-jetified-emoji2-views-helper-1.2.0-9 /home/user/.gradle/caches/transforms-4/160a7cca2694675a7faabf038dbf033a/transformed/jetified-emoji2-views-helper-1.2.0/res
+com.froyo.darbhangabikes.app-jetified-play-services-base-18.1.0-10 /home/user/.gradle/caches/transforms-4/18c99d05ed524650261515215a45d3de/transformed/jetified-play-services-base-18.1.0/res
+com.froyo.darbhangabikes.app-jetified-lifecycle-viewmodel-savedstate-2.6.2-11 /home/user/.gradle/caches/transforms-4/1c7b3339fce90f7e6175eaf3c8572e46/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.2/res
+com.froyo.darbhangabikes.app-slidingpanelayout-1.2.0-12 /home/user/.gradle/caches/transforms-4/2064d4c7f46051ca9d22bc063d7b9677/transformed/slidingpanelayout-1.2.0/res
+com.froyo.darbhangabikes.app-jetified-firebase-messaging-23.4.0-13 /home/user/.gradle/caches/transforms-4/20c734919ad9b15a4358a89f9a202100/transformed/jetified-firebase-messaging-23.4.0/res
+com.froyo.darbhangabikes.app-jetified-viewpager2-1.0.0-14 /home/user/.gradle/caches/transforms-4/290af4eca942f52e72cc49438a523f2c/transformed/jetified-viewpager2-1.0.0/res
+com.froyo.darbhangabikes.app-jetified-savedstate-1.2.1-15 /home/user/.gradle/caches/transforms-4/2b39ddddb99309e5b3da6423d1b387cd/transformed/jetified-savedstate-1.2.1/res
+com.froyo.darbhangabikes.app-jetified-lifecycle-runtime-ktx-2.6.2-16 /home/user/.gradle/caches/transforms-4/33dc17a39322739af16a58c9e814b7af/transformed/jetified-lifecycle-runtime-ktx-2.6.2/res
+com.froyo.darbhangabikes.app-jetified-lifecycle-service-2.6.2-17 /home/user/.gradle/caches/transforms-4/39a38ddfffa4ad18035b8089ee8f4f62/transformed/jetified-lifecycle-service-2.6.2/res
+com.froyo.darbhangabikes.app-jetified-window-1.0.0-18 /home/user/.gradle/caches/transforms-4/3a55a1ad8847778ea78481cf2052b668/transformed/jetified-window-1.0.0/res
+com.froyo.darbhangabikes.app-jetified-fragment-ktx-1.6.2-19 /home/user/.gradle/caches/transforms-4/3ecae173baa4a088328c67e146794df6/transformed/jetified-fragment-ktx-1.6.2/res
+com.froyo.darbhangabikes.app-databinding-adapters-8.1.4-20 /home/user/.gradle/caches/transforms-4/439f89f494e29f89e4e24cb518e88ed7/transformed/databinding-adapters-8.1.4/res
+com.froyo.darbhangabikes.app-jetified-lifecycle-viewmodel-ktx-2.6.2-21 /home/user/.gradle/caches/transforms-4/43b28c0c45919b9172f573d641d4ca44/transformed/jetified-lifecycle-viewmodel-ktx-2.6.2/res
+com.froyo.darbhangabikes.app-jetified-lottie-6.2.0-22 /home/user/.gradle/caches/transforms-4/4480a9049412c9d638285d4b15de1fcd/transformed/jetified-lottie-6.2.0/res
+com.froyo.darbhangabikes.app-navigation-fragment-ktx-2.7.5-23 /home/user/.gradle/caches/transforms-4/4ad460fbdae05fcb61f7478278d0022a/transformed/navigation-fragment-ktx-2.7.5/res
+com.froyo.darbhangabikes.app-jetified-lifecycle-process-2.6.2-24 /home/user/.gradle/caches/transforms-4/4b25d8323e638fb1f87b8b13f8b15a3c/transformed/jetified-lifecycle-process-2.6.2/res
+com.froyo.darbhangabikes.app-jetified-activity-ktx-1.8.0-25 /home/user/.gradle/caches/transforms-4/4eab9e00756002238882a8bff467abb6/transformed/jetified-activity-ktx-1.8.0/res
+com.froyo.darbhangabikes.app-jetified-ads-adservices-1.0.0-beta05-26 /home/user/.gradle/caches/transforms-4/4f6836a5de49e881dedf73ab32771688/transformed/jetified-ads-adservices-1.0.0-beta05/res
+com.froyo.darbhangabikes.app-databinding-runtime-8.1.4-27 /home/user/.gradle/caches/transforms-4/5015bbbbc0a5d0b60c7c82814edef957/transformed/databinding-runtime-8.1.4/res
+com.froyo.darbhangabikes.app-lifecycle-viewmodel-2.6.2-28 /home/user/.gradle/caches/transforms-4/5176a9980d92d4c58003f807456d876a/transformed/lifecycle-viewmodel-2.6.2/res
+com.froyo.darbhangabikes.app-jetified-lifecycle-livedata-ktx-2.6.2-29 /home/user/.gradle/caches/transforms-4/51dae4fdcde0170474458265de6af0b1/transformed/jetified-lifecycle-livedata-ktx-2.6.2/res
+com.froyo.darbhangabikes.app-jetified-emoji2-1.2.0-30 /home/user/.gradle/caches/transforms-4/51f5c2e72f905b2832cd9cd5321fbe7b/transformed/jetified-emoji2-1.2.0/res
+com.froyo.darbhangabikes.app-jetified-activity-1.8.0-31 /home/user/.gradle/caches/transforms-4/56a4f6c848d55705be63b0d5d687c7d3/transformed/jetified-activity-1.8.0/res
+com.froyo.darbhangabikes.app-jetified-core-ktx-1.12.0-32 /home/user/.gradle/caches/transforms-4/58f9faf12bbc13c90f43a0a18e300e68/transformed/jetified-core-ktx-1.12.0/res
+com.froyo.darbhangabikes.app-jetified-glide-4.16.0-33 /home/user/.gradle/caches/transforms-4/5aced90eaa0616bc861e7289672d4c87/transformed/jetified-glide-4.16.0/res
+com.froyo.darbhangabikes.app-navigation-runtime-2.7.5-34 /home/user/.gradle/caches/transforms-4/5bfc2921e0b23a06da215c6ee5b4135c/transformed/navigation-runtime-2.7.5/res
+com.froyo.darbhangabikes.app-transition-1.4.1-35 /home/user/.gradle/caches/transforms-4/7042aa325455243be76090597b31ea35/transformed/transition-1.4.1/res
+com.froyo.darbhangabikes.app-navigation-runtime-ktx-2.7.5-36 /home/user/.gradle/caches/transforms-4/79ee50fba53b19f298c7f4c730c220a1/transformed/navigation-runtime-ktx-2.7.5/res
+com.froyo.darbhangabikes.app-material-1.10.0-37 /home/user/.gradle/caches/transforms-4/7f4c258b86004d044651e5e604da643c/transformed/material-1.10.0/res
+com.froyo.darbhangabikes.app-browser-1.4.0-38 /home/user/.gradle/caches/transforms-4/876efbb7cb384d1d8cd8317ba30776cf/transformed/browser-1.4.0/res
+com.froyo.darbhangabikes.app-jetified-ads-adservices-java-1.0.0-beta05-39 /home/user/.gradle/caches/transforms-4/8a48900c7c3821781760bbb8aa5eba8b/transformed/jetified-ads-adservices-java-1.0.0-beta05/res
+com.froyo.darbhangabikes.app-sqlite-framework-2.4.0-40 /home/user/.gradle/caches/transforms-4/908078f81660b0107a24d19cb2dfa3ff/transformed/sqlite-framework-2.4.0/res
+com.froyo.darbhangabikes.app-lifecycle-runtime-2.6.2-41 /home/user/.gradle/caches/transforms-4/934e9c18ae40beb3bc2c47013ddd4eac/transformed/lifecycle-runtime-2.6.2/res
+com.froyo.darbhangabikes.app-jetified-appcompat-resources-1.6.1-42 /home/user/.gradle/caches/transforms-4/966dd0457b33756d966d7e428168c313/transformed/jetified-appcompat-resources-1.6.1/res
+com.froyo.darbhangabikes.app-jetified-annotation-experimental-1.3.0-43 /home/user/.gradle/caches/transforms-4/98cb1b60155b54086887046b8927923a/transformed/jetified-annotation-experimental-1.3.0/res
+com.froyo.darbhangabikes.app-coordinatorlayout-1.1.0-44 /home/user/.gradle/caches/transforms-4/9e6bf0fa0b8d6d1709bb9fd729605e90/transformed/coordinatorlayout-1.1.0/res
+com.froyo.darbhangabikes.app-jetified-lifecycle-livedata-core-ktx-2.6.2-45 /home/user/.gradle/caches/transforms-4/a152a2b733bc70d9558d716375d2fff1/transformed/jetified-lifecycle-livedata-core-ktx-2.6.2/res
+com.froyo.darbhangabikes.app-drawerlayout-1.1.1-46 /home/user/.gradle/caches/transforms-4/a3d86689f8a3da2b5aedd8e8fda3b8e0/transformed/drawerlayout-1.1.1/res
+com.froyo.darbhangabikes.app-jetified-play-services-maps-18.2.0-47 /home/user/.gradle/caches/transforms-4/a58d325d986c5a86b0f2c52ac1f061a0/transformed/jetified-play-services-maps-18.2.0/res
+com.froyo.darbhangabikes.app-navigation-fragment-2.7.5-48 /home/user/.gradle/caches/transforms-4/a92699c7f6e97e5d372608d9ecf2e391/transformed/navigation-fragment-2.7.5/res
+com.froyo.darbhangabikes.app-jetified-play-services-basement-18.2.0-49 /home/user/.gradle/caches/transforms-4/af4b327862aa3d6a94fd082479fb7b9d/transformed/jetified-play-services-basement-18.2.0/res
+com.froyo.darbhangabikes.app-lifecycle-livedata-2.6.2-50 /home/user/.gradle/caches/transforms-4/be0fee9d8ba3b25a27d54718f0bc9fa7/transformed/lifecycle-livedata-2.6.2/res
+com.froyo.darbhangabikes.app-fragment-1.6.2-51 /home/user/.gradle/caches/transforms-4/bfa1b2303d08ad9d975b96628e634cbb/transformed/fragment-1.6.2/res
+com.froyo.darbhangabikes.app-sqlite-2.4.0-52 /home/user/.gradle/caches/transforms-4/c26e900f550013d640c738504fe4c1a4/transformed/sqlite-2.4.0/res
+com.froyo.darbhangabikes.app-recyclerview-1.1.0-53 /home/user/.gradle/caches/transforms-4/c47ea2e49a388ba6e0353d8437bd30e7/transformed/recyclerview-1.1.0/res
+com.froyo.darbhangabikes.app-lifecycle-livedata-core-2.6.2-54 /home/user/.gradle/caches/transforms-4/c666120a107e0388b60c44ae6e60a2ef/transformed/lifecycle-livedata-core-2.6.2/res
+com.froyo.darbhangabikes.app-appcompat-1.6.1-55 /home/user/.gradle/caches/transforms-4/c8eb7b91fcc413d67be9f5126c81e497/transformed/appcompat-1.6.1/res
+com.froyo.darbhangabikes.app-room-runtime-2.6.1-56 /home/user/.gradle/caches/transforms-4/ce038da34f6dee7374e8e2c7b375af3f/transformed/room-runtime-2.6.1/res
+com.froyo.darbhangabikes.app-cardview-1.0.0-57 /home/user/.gradle/caches/transforms-4/d09fc26ec73b04d895d8a5bb3f15f958/transformed/cardview-1.0.0/res
+com.froyo.darbhangabikes.app-jetified-play-services-auth-20.7.0-58 /home/user/.gradle/caches/transforms-4/d8f49d87d8705ed16f246688fb9c83be/transformed/jetified-play-services-auth-20.7.0/res
+com.froyo.darbhangabikes.app-navigation-common-2.7.5-59 /home/user/.gradle/caches/transforms-4/de92c672645ed4b800fccebd8edb9a6b/transformed/navigation-common-2.7.5/res
+com.froyo.darbhangabikes.app-jetified-firebase-common-20.4.2-60 /home/user/.gradle/caches/transforms-4/e8f489903b76d53ca3a4a33c275a4ef8/transformed/jetified-firebase-common-20.4.2/res
+com.froyo.darbhangabikes.app-jetified-datastore-preferences-1.0.0-61 /home/user/.gradle/caches/transforms-4/e9873a083fa0f1599b9e8fe00df8cd8d/transformed/jetified-datastore-preferences-1.0.0/res
+com.froyo.darbhangabikes.app-jetified-room-ktx-2.6.1-62 /home/user/.gradle/caches/transforms-4/ea0405f1455ec2bc5ea1a5a551c015ed/transformed/jetified-room-ktx-2.6.1/res
+com.froyo.darbhangabikes.app-jetified-android-maps-utils-3.8.0-63 /home/user/.gradle/caches/transforms-4/f033b4766bdb910bd6af2452e9450989/transformed/jetified-android-maps-utils-3.8.0/res
+com.froyo.darbhangabikes.app-core-1.12.0-64 /home/user/.gradle/caches/transforms-4/f8e2763548682a93f6fad45430cc866b/transformed/core-1.12.0/res
+com.froyo.darbhangabikes.app-navigation-common-ktx-2.7.5-65 /home/user/.gradle/caches/transforms-4/f9ce36008e9d49ab0d61954b87a60c3b/transformed/navigation-common-ktx-2.7.5/res
+com.froyo.darbhangabikes.app-jetified-startup-runtime-1.1.1-66 /home/user/.gradle/caches/transforms-4/faf4bd3092993bc372a9a26b862c3e2b/transformed/jetified-startup-runtime-1.1.1/res
+com.froyo.darbhangabikes.app-jetified-datastore-1.0.0-67 /home/user/.gradle/caches/transforms-4/fdb654fae5639f150dc1515c64781fd7/transformed/jetified-datastore-1.0.0/res
+com.froyo.darbhangabikes.app-pngs-68 /home/user/Darbhanga-Bikes/DarbhangaBikes (2)/DarbhangaBikes/app/build/generated/res/pngs/debug
+com.froyo.darbhangabikes.app-res-69 /home/user/Darbhanga-Bikes/DarbhangaBikes (2)/DarbhangaBikes/app/build/generated/res/processDebugGoogleServices
+com.froyo.darbhangabikes.app-resValues-70 /home/user/Darbhanga-Bikes/DarbhangaBikes (2)/DarbhangaBikes/app/build/generated/res/resValues/debug
+com.froyo.darbhangabikes.app-mergeDebugResources-71 /home/user/Darbhanga-Bikes/DarbhangaBikes (2)/DarbhangaBikes/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.froyo.darbhangabikes.app-mergeDebugResources-72 /home/user/Darbhanga-Bikes/DarbhangaBikes (2)/DarbhangaBikes/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.froyo.darbhangabikes.app-merged_res-73 /home/user/Darbhanga-Bikes/DarbhangaBikes (2)/DarbhangaBikes/app/build/intermediates/merged_res/debug
+com.froyo.darbhangabikes.app-debug-74 /home/user/Darbhanga-Bikes/DarbhangaBikes (2)/DarbhangaBikes/app/src/debug/res
+com.froyo.darbhangabikes.app-main-75 /home/user/Darbhanga-Bikes/DarbhangaBikes (2)/DarbhangaBikes/app/src/main/res

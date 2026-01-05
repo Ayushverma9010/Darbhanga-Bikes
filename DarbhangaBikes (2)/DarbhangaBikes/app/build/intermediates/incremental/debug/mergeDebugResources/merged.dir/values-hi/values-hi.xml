@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d नई सूचनाएं</item>
+    <item quantity="other">%d नई सूचनाएं</item>
+  </plurals>
+    <string name="Bandra_East">बांद्रा पूर्व</string>
+    <string name="Bandra_West">बांद्रा पश्चिम </string>
+    <string name="Complete_the_Transaction">लेन-देन पूरा करें</string>
+    <string name="Congratulations_Payment_successful_Done">बधाई भुगतान सफल हो गया</string>
+    <string name="Continue">जारी रखें</string>
+    <string name="Continue_with_Apple">एप्प्ल के साथ जारी रखें</string>
+    <string name="Continue_with_Facebook">फेसबुक के साथ जारी रखें</string>
+    <string name="Continue_with_Google">गूगल के साथ जारी रखें</string>
+    <string name="Darbhanga_beloved">Darbhanga की प्यारी बाइक टैक्सी सेवा </string>
+    <string name="Enter_Mobile_Number">मोबाइल नंबर दर्ज करें</string>
+    <string name="Install_GooglePay_on_your_device">अपने डिवाइस पर GooglePay इंस्टॉल करें</string>
+    <string name="Install_Mobikwik_on_your_device">अपने डिवाइस पर मोबिक्विक इंस्टॉल करें</string>
+    <string name="Install_PayTm_on_your_device">अपने डिवाइस पर पेटीएम इंस्टॉल करें</string>
+    <string name="Invite">आमंत्रण</string>
+    <string name="Invite_Friends">मित्रों को आमंत्रित करें</string>
+    <string name="Invite_friends_and_get_rewards">मित्रों को आमंत्रित करें और पुरस्कार प्राप्त करें</string>
+    <string name="Login_or_Register">भाग लें या पंजीकरण करें</string>
+    <string name="Made_in_Darbhanga">Darbhanga में किए गए</string>
+    <string name="Manage_favorite_locations">पसंदीदा स्थान प्रबंधित करें</string>
+    <string name="Manage_preferences">प्राथमिकताएं प्रबंधित करें</string>
+    <string name="Payment_Alert">भुगतान चेतावनी</string>
+    <string name="Personal_Wallet">व्यक्तिगत बटुआ</string>
+    <string name="Preferences">पसंद</string>
+    <string name="Previous_Rides">पिछली सवारी</string>
+    <string name="Register_for_pass">पास के लिए रजिस्टर करें</string>
+    <string name="Seat_back_and_relax_while_we_verify_your_phone_number">जब तक हम आपका फ़ोन नंबर सत्यापित करते हैं, तब तक बैठें और आराम करें</string>
+    <string name="Select_Language">भाषा का चयन करें</string>
+    <string name="Share_via">के माध्यम से बाँटे</string>
+    <string name="Terms_and_Conditions">नियम और शर्तें</string>
+    <string name="Waiting_for_OTP">ओटीपी की प्रतीक्षा की जा रही है...</string>
+    <string name="_0_0">0.0</string>
+    <string name="_5_5_27">5.5.27</string>
+    <string name="_9_days_ago">9 दिन पहले</string>
+    <string name="abc">abc</string>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"होम पेज पर जाएं"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"वापस जाएं"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ज़्यादा विकल्प"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"हो गया"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"सभी देखें"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"कोई ऐप्लिकेशन चुनें"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"बंद"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"चालू"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"खोजें…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"क्‍वेरी हटाएं"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"सर्च क्वेरी"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"खोजें"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"क्वेरी सबमिट करें"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"बोलकर खोजें"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"इससे शेयर करें:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> से शेयर करें"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"छोटा करें"</string>
+    <string name="about">तकरीबन</string>
+    <string name="active">सक्रिय</string>
+    <string name="allow_permissions">अनुमति दें</string>
+    <string name="amount_to_be_paid">जितनी राशि अदा की जानी है</string>
+    <string name="app_language">ऐप भाषा</string>
+    <string name="app_name">Darbhanga Bikes</string>
+    <string name="app_shortcuts">ऐप शॉर्टकट</string>
+    <string name="apply_coupon_code">कूपन कोड लागू करें</string>
+    <string name="bandra_station">बांद्रा स्टेशन</string>
+    <string name="bike_taxi">बाइक टैक्सी।</string>
+    <string name="bottomsheet_action_collapse">बॉटम शीट को छोटा करें</string>
+    <string name="bottomsheet_action_expand">बॉटम शीट को बड़ा करें</string>
+    <string name="bottomsheet_action_expand_halfway">पूरी तरह बड़ा करें</string>
+    <string name="bottomsheet_drag_handle_clicked">खींचकर छोड़ने वाले हैंडल पर दो बार टैप किया गया</string>
+    <string name="bottomsheet_drag_handle_content_description">खींचकर छोड़ने वाला हैंडल</string>
+    <string name="by_continuing_you_will_agree_to_our_terms_and_privacy_policy_of_rapido">जारी रखकर आप Ride Karo . की हमारी शर्तों और गोपनीयता नीति से सहमत होंगे</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"जवाब दें"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"वीडियो"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"अस्वीकार करें"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"कॉल काटें"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"आने वाला (इनकमिंग) कॉल"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"पहले से जारी कॉल"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"इनकमिंग कॉल को स्क्रीन किया जा रहा है"</string>
+    <string name="call_rider">कॉल राइडर</string>
+    <string name="cancelled">रद्द</string>
+    <string name="cash">नकद</string>
+    <string name="character_counter_content_description">%2$d वर्णों में से %1$d वर्ण दर्ज किए गए</string>
+    <string name="character_counter_overflowed_content_description">अभी %1$d वर्ण हैं जबकि %2$d से ज़्यादा नहीं होने चाहिए</string>
+    <string name="choose_language">आरंभ करने के लिए एक भाषा चुनें</string>
+    <string name="clear_text_end_icon_content_description">टेक्स्ट मिटाएं</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">चालू करें</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">जब तक आप Google Play सेवाएं चालू नहीं करते, %1$s काम नहीं करेगा.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Google Play सेवाएं चालू करें</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">इंस्टॉल करें</string>
+    <string name="common_google_play_services_install_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो आपके डिवाइस में उपलब्ध नहीं हैं.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Google Play सेवाएं इंस्टॉल करें</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play सेवाएं उपलब्ध हैं</string>
+    <string name="common_google_play_services_notification_ticker">Google Play सेवाओं से जुड़ी गड़बड़ी</string>
+    <string name="common_google_play_services_unknown_issue">%1$s को Google Play सेवाओं के साथ समस्या आ रही है. कृपया फिर से कोशिश करें.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके डिवाइस पर काम नहीं करती हैं.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">अपडेट करें</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">%1$s तब तक नहीं चलेगा जब तक आप Google Play सेवाओं को अपडेट नहीं करते.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Google Play सेवाओं को अपडेट करें</string>
+    <string name="common_google_play_services_updating_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो अभी अपडेट हो रही हैं.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play सेवाओं के नए वर्शन की ज़रूरत है. यह जल्द ही अपने आप अपडेट हो जाएगा.</string>
+    <string name="common_open_on_phone">फ़ोन पर खोलें</string>
+    <string name="common_signin_button_text">साइन इन करें</string>
+    <string name="common_signin_button_text_long">Google के ज़रिए साइन इन करें</string>
+    <string name="completed">पूर्ण</string>
+    <string msgid="3260749812566568062" name="copy_toast_msg">"लिंक क्लिपबोर्ड पर कॉपी किया गया"</string>
+    <string name="create_shortcuts_on_home_launcher">होम लॉन्चर पर शॉर्टकट बनाएं</string>
+    <string name="current_location">वर्तमान स्थान</string>
+    <string name="distance">दूरी</string>
+    <string name="driver_found">ड्राइवर मिला</string>
+    <string name="english">English</string>
+    <string name="enter_destination">गंतव्य दर्ज करें</string>
+    <string name="enter_phone_number">फोन नंबर दर्ज</string>
+    <string name="enter_the_email">ईमेल दर्ज करें</string>
+    <string name="enter_the_password">पासवर्ड दर्ज करे</string>
+    <string name="enter_verification_pin">सत्यापन पिन दर्ज करें</string>
+    <string name="error_icon_content_description">गड़बड़ी</string>
+    <string name="exposed_dropdown_menu_content_description">ड्रॉपडाउन मेन्यू दिखाएं</string>
+    <string msgid="4566929209979330987" name="fallback_menu_item_copy_link">"लिंक कॉपी करें"</string>
+    <string msgid="3413186855122069269" name="fallback_menu_item_open_in_browser">"ब्राउज़र में खोलें"</string>
+    <string msgid="7145444925855055364" name="fallback_menu_item_share_link">"लिंक शेयर करें"</string>
+    <string name="favorites">पसंदीदा</string>
+    <string name="general">आम</string>
+    <string name="get_early_access_to_latest_features">नवीनतम सुविधाओं तक शीघ्र पहुंच प्राप्त करें</string>
+    <string name="get_help">मदद लें</string>
+    <string name="getting_driver">अपना ड्राइवर प्राप्त करना</string>
+    <string name="go_cashless_after_ride_pay_by_scanning_qr_code">क्यूआर कोड स्कैन करके राइड पे के बाद कैशलेस हो जाएं</string>
+    <string name="gorai_naka">गौरै नका</string>
+    <string name="having_an_issue">कोई समस्या है?</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hold_tight_rider_is_on_it_s_way_to_your_location">कसी पकड़! राइडर आपके स्थान के रास्ते में है</string>
+    <string name="home">घर</string>
+    <string name="hurray">हुर्रे</string>
+    <string name="icon_content_description">डायलॉग का आइकॉन</string>
+    <string name="im_a_customer">मैं एक ग्राहक हूँ</string>
+    <string name="im_a_rider">मैं एक सवार हूँ</string>
+    <string name="invite_friends">मित्रों को आमंत्रित करें</string>
+    <string name="item_view_role_description">टैब</string>
+    <string name="legal">कानूनी</string>
+    <string name="let_s_go">चलो चलते हैं</string>
+    <string name="let_s_ride">चलो सवारी करें</string>
+    <string name="link">जुड़े</string>
+    <string name="location">स्थान: आप का पता लगाने और आसानी से सवारी पाने के लिए</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="logout">लॉग आउट</string>
+    <string name="looking_for_driver">सवार स्थान की तलाश में</string>
+    <string name="material_clock_toggle_content_description">AM या PM चुनें</string>
+    <string name="material_hour_24h_suffix">%1$s घंटे</string>
+    <string name="material_hour_selection">घंटा चुनें</string>
+    <string name="material_hour_suffix">%1$s बजे</string>
+    <string name="material_minute_selection">मिनट चुनें</string>
+    <string name="material_minute_suffix">%1$s मिनट</string>
+    <string name="material_timepicker_am">पूर्वाह्न</string>
+    <string name="material_timepicker_clock_mode_description">समय इनपुट के लिए घड़ी मोड पर जाएं.</string>
+    <string name="material_timepicker_hour">घंटा</string>
+    <string name="material_timepicker_minute">मिनट</string>
+    <string name="material_timepicker_pm">अपराह्न</string>
+    <string name="material_timepicker_select_time">समय चुनें</string>
+    <string name="material_timepicker_text_input_mode_description">समय इनपुट के लिए लेख इनपुट मोड पर जाएं.</string>
+    <string name="mobile_number">मोबाइल नंबर</string>
+    <string name="mtrl_badge_numberless_content_description">नई सूचना</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s हटाएं</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d से ज़्यादा नई सूचनाएं</string>
+    <string name="mtrl_picker_a11y_next_month">अगले महीने पर जाएं</string>
+    <string name="mtrl_picker_a11y_prev_month">पिछले महीने पर जाएं</string>
+    <string name="mtrl_picker_announce_current_range_selection">शुरू होने की तारीख चुनें: %1$s – खत्म होने की तारीख चुनें: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">फ़िलहाल, यह चुना गया है: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">कोई भी तारीख नहीं चुनी गई</string>
+    <string name="mtrl_picker_cancel">रद्द करें</string>
+    <string name="mtrl_picker_confirm">ठीक है</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">तारीख चुनें</string>
+    <string name="mtrl_picker_date_header_unselected">चुनी गई तारीख</string>
+    <string name="mtrl_picker_day_of_week_column_header">दिनों का कॉलम: %1$s</string>
+    <string name="mtrl_picker_end_date_description">खत्म होने की तारीख %1$s</string>
+    <string name="mtrl_picker_invalid_format">गलत फ़ॉर्मैट.</string>
+    <string name="mtrl_picker_invalid_format_example">उदाहरण: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">%1$s का इस्तेमाल करें</string>
+    <string name="mtrl_picker_invalid_range">तारीखों की अमान्य सीमा.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">मौजूदा साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_navigate_to_year_description">साल %1$d पर जाएं</string>
+    <string name="mtrl_picker_out_of_range">चुनी गई तारीख मान्य नहीं है: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">शुरू होने की तारीख – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">रेंज चुनें</string>
+    <string name="mtrl_picker_range_header_unselected">शुरू होने की तारीख – खत्म होने की तारीख</string>
+    <string name="mtrl_picker_save">सेव करें</string>
+    <string name="mtrl_picker_start_date_description">शुरू होने की तारीख %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">खत्म होने की तारीख</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">शुरू होने की तारीख</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">आज %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">कैलेंडर के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_day_selection">कैलेंडर के व्यू पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">टेक्स्ट के इनपुट मोड पर स्विच करें</string>
+    <string name="mtrl_picker_toggle_to_year_selection">साल के व्यू पर स्विच करने के लिए टैप करें</string>
+    <string name="mtrl_timepicker_cancel">रद्द करें</string>
+    <string name="mtrl_timepicker_confirm">ठीक है</string>
+    <string name="my_rides">मेरी सवारी</string>
+    <string msgid="6301633601645100427" name="nav_app_bar_navigate_up_description">"वापस जाएं"</string>
+    <string msgid="7456070600745802113" name="nav_app_bar_open_drawer_description">"नेविगेशन पैनल खोलें"</string>
+    <string name="navigation_drawer_close">"Close navigation drawer"</string>
+    <string name="navigation_drawer_open">"Open navigation drawer"</string>
+    <string name="new_rider_register">नया सवार? रजिस्टर करें</string>
+    <string name="next">अगला</string>
+    <string name="no">नहीं न</string>
+    <string name="notifications">सूचनाएं</string>
+    <string name="ok">ठीक है</string>
+    <string name="or">या</string>
+    <string name="other_payment_methods">अन्य भुगतान के तरीके</string>
+    <string name="others">अन्य</string>
+    <string name="password_toggle_content_description">पासवर्ड दिखाएं</string>
+    <string name="pay">भुगतान करते हैं</string>
+    <string name="payment">भुगतान</string>
+    <string name="payment_failed">भुगतान असफल हुआ</string>
+    <string name="personal_accident_accidental_death">व्यक्तिगत दुर्घटना/आकस्मिक मृत्यु</string>
+    <string name="personal_account">व्यक्तिगत खाता</string>
+    <string name="phone">फ़ोन: अपना खाता सत्यापित करने और उसे सुरक्षित करने के लिए</string>
+    <string name="please_allow">कृपया हमें निम्नलिखित अनुमति दें</string>
+    <string name="policy_coverage">पॉलिसी कवरेज</string>
+    <string name="power_pass">पावरपास</string>
+    <string name="profile">प्रोफ़ाइल</string>
+    <string name="qr_pay">क्यूआर पे</string>
+    <string name="rahul_yadav">राहुल यादव</string>
+    <string name="recharge">फिर से दाम लगाना</string>
+    <string name="request_ride">अनुरोध सवारी</string>
+    <string name="reset">रीसेट</string>
+    <string name="ride">सवारी</string>
+    <string name="santosh_bhuvan">संतोष भुवन</string>
+    <string name="save">जमा करो</string>
+    <string name="search_drop_location">ड्रॉप लोकेशन खोजें</string>
+    <string name="search_issue">खोज मुद्दा</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"खोजें"</string>
+    <string name="setting">समायोजन</string>
+    <string name="settings">समायोजन</string>
+    <string name="share">शेयर</string>
+    <string name="small_Payment">भुगतान</string>
+    <string name="start">शुरू</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="stop">रुकें</string>
+    <string name="subscribe_to_beta">बीटा की सदस्यता लें</string>
+    <string name="support">सहयोग</string>
+    <string name="support_menu">सहयोग</string>
+    <string name="title_activity_home_screen">Map</string>
+    <string name="title_activity_maps">नक्शा</string>
+    <string name="title_activity_maps2">नक्शा</string>
+    <string name="to_have_comfortable">राइडकारो के साथ एक आरामदायक सवारी अनुभव प्राप्त करने के लिए,</string>
+    <string name="today">आज</string>
+    <string name="total">संपूर्ण</string>
+    <string name="tulinj_road">तुलिंज रोड</string>
+    <string name="vasai">वसई</string>
+    <string name="view">राय</string>
+    <string name="view_all_tickets">सभी टिकट देखें</string>
+    <string name="wallet">बटुआ</string>
+    <string name="welcome">राइड करो में आपका स्वागत है</string>
+    <string name="with_you_and">आपके साथ और</string>
+    <string name="yes">हाँ</string>
+    <string name="your_ride_is_complete_don_t_forget_to_rate_us_on_playstore">आपकी सवारी पूरी हो गई है! प्लेस्टोर पर हमें रेट करना न भूलें</string>
+    <string name="your_safety_matters">आपकी सुरक्षा के मामले</string>
+</resources>

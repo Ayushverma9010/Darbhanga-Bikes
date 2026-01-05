@@ -1,5 +1,8 @@
 package com.froyo.darbhangabikes
 
+
+import com.froyo.darbhangabikes.BuildConfig // <--- ADD THIS LINE
+// ...
 import android.app.Application
 import com.google.firebase.FirebaseApp
 import timber.log.Timber

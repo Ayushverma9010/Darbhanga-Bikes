@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General"
+        android:padding="16dp"
+        android:textColor="@color/grey"/>
+
+    <TextView
+        android:id="@+id/tv_saved_places"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saved Places"
+        android:padding="16dp"
+        android:background="@color/white"
+        android:drawableEnd="@android:drawable/ic_media_play"
+        android:textSize="16sp"/>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#E0E0E0"/>
+
+    <TextView
+        android:id="@+id/tv_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Privacy Policy"
+        android:padding="16dp"
+        android:background="@color/white"
+        android:textSize="16sp"/>
+
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#E0E0E0"/>
+
+    <TextView
+        android:id="@+id/tv_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Darbhanga Bikes"
+        android:padding="16dp"
+        android:background="@color/white"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0.0"
+        android:gravity="center"
+        android:padding="24dp"
+        android:textColor="@color/grey"/>
+
+</LinearLayout>

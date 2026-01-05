@@ -37,19 +37,7 @@
     </style>
     
     <!-- Button Styles -->
-    <style name="Button.Primary" parent="Widget.MaterialComponents.Button">
-        <item name="android:textColor">@color/black</item>
-        <item name="backgroundTint">@color/colorPrimary</item>
-        <item name="cornerRadius">8dp</item>
-        <item name="android:paddingVertical">12dp</item>
-    </style>
     
-    <style name="Button.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
-        <item name="android:textColor">@color/colorPrimary</item>
-        <item name="strokeColor">@color/colorPrimary</item>
-        <item name="cornerRadius">8dp</item>
-        <item name="android:paddingVertical">12dp</item>
-    </style>
     
     <!-- TextInputLayout Style -->
     <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">

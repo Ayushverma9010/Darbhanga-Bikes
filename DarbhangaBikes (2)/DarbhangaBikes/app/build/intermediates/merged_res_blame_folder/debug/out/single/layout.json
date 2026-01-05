@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/fragment_login.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/activity_splash.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/fragment_profile.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/fragment_invite_friends.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_invite_friends.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/fragment_ride_status.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_ride_status.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/fragment_power_pass.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_power_pass.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/activity_main.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/item_ride.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/item_ride.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/fragment_notifications.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/fragment_support.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_support.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/fragment_booking_bottom_sheet.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_booking_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/fragment_settings.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/fragment_home.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/fragment_otp_verify.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_otp_verify.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/fragment_payment.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_payment.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-mergeDebugResources-72:/layout/fragment_rides.xml",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_rides.xml"
+    }
+]

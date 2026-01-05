@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Power Pass"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="12dp"
+        app:cardBackgroundColor="#FFC107"
+        app:layout_constraintTop_toBottomOf="@id/tv_title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unlimited Rides"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get flat ₹10 off on every ride for 30 days."
+                android:textSize="16sp"
+                android:textColor="#333333"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₹199 / Month"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="24dp"/>
+
+            <Button
+                android:id="@+id/btn_buy_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Buy Now"
+                android:backgroundTint="@color/black"
+                android:textColor="@color/white"
+                android:layout_marginTop="16dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,54 +1,65 @@
 package com.froyo.darbhangabikes.ui
 
+import android.Manifest
+import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.NavController
+import androidx.core.content.ContextCompat
 import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.AppBarConfiguration
-import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.froyo.darbhangabikes.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import timber.log.Timber
+import com.google.firebase.messaging.FirebaseMessaging
 
 class MainActivity : AppCompatActivity() {
-    
-    private lateinit var navController: NavController
-    
+
+    // Permission Launcher
+    private val requestNotificationPermission =
+        registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted: Boolean ->
+            if (isGranted) {
+                // Permission mil gayi
+            } else {
+                Toast.makeText(this, "Notifications disabled", Toast.LENGTH_SHORT).show()
+            }
+        }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        
-        // Initialize Timber for logging
-        if (BuildConfig.DEBUG) {
-            Timber.plant(Timber.DebugTree())
-        }
-        
-        Timber.d("MainActivity created")
-        
-        setupNavigation()
-    }
-    
-    private fun setupNavigation() {
+
+        // 1. Navigation Setup
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
-        navController = navHostFragment.navController
+        val navController = navHostFragment.navController
+        val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_nav_view)
+        bottomNav.setupWithNavController(navController)
+
+        // 2. Notification Permission Check (Android 13+)
+        askNotificationPermission()
         
-        val bottomNavView = findViewById<BottomNavigationView>(R.id.bottom_nav_view)
-        bottomNavView.setupWithNavController(navController)
-        
-        // Setup ActionBar with Navigation
-        val appBarConfiguration = AppBarConfiguration(
-            setOf(
-                R.id.navigation_home,
-                R.id.navigation_rides,
-                R.id.navigation_profile
-            )
-        )
-        setupActionBarWithNavController(navController, appBarConfiguration)
+        // 3. Log FCM Token (Testing ke liye console mein dekhne ko milega)
+        FirebaseMessaging.getInstance().token.addOnCompleteListener { task ->
+            if (!task.isSuccessful) {
+                return@addOnCompleteListener
+            }
+            // Get new FCM registration token
+            val token = task.result
+            // Log.d("FCM Token", token) // Debugging ke liye
+        }
     }
-    
-    override fun onSupportNavigateUp(): Boolean {
-        return navController.navigateUp() || super.onSupportNavigateUp()
+
+    private fun askNotificationPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) ==
+                PackageManager.PERMISSION_GRANTED
+            ) {
+                // Permission already granted
+            } else {
+                requestNotificationPermission.launch(Manifest.permission.POST_NOTIFICATIONS)
+            }
+        }
     }
 }

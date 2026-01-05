@@ -2,33 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Internet Permission -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    
-    <!-- Location Permissions -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-    
-    <!-- Phone State -->
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    
-    <!-- Contacts Permission -->
     <uses-permission android:name="android.permission.READ_CONTACTS" />
-    
-    <!-- Camera Permission -->
-    <uses-permission android:name="android.permission.CAMERA" />
-    
-    <!-- Storage Permissions -->
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" 
-        android:maxSdkVersion="32" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        android:maxSdkVersion="29"
-        tools:ignore="ScopedStorage" />
-    
-    <!-- Notification Permission (Android 13+) -->
-    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:name=".DarbhangaBikesApp"
@@ -40,23 +24,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DarbhangaBikes"
-        android:usesCleartextTraffic="true"
         tools:targetApi="31">
-        
-        <!-- Google Maps API Key -->
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="${MAPS_API_KEY}" />
-        
-        <!-- Firebase Cloud Messaging -->
-        <meta-data
-            android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@mipmap/ic_launcher" />
-        <meta-data
-            android:name="com.google.firebase.messaging.default_notification_color"
-            android:resource="@color/colorPrimary" />
-        
-        <!-- Main Activity -->
+            android:value="AIzaSyBwmvCEBSpkvWDdLUj96u246Qmse5btfp0" />
+
         <activity
             android:name=".ui.MainActivity"
             android:exported="true"
@@ -66,30 +39,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <!-- Splash Activity -->
-        <activity
-            android:name=".ui.SplashActivity"
-            android:exported="false"
-            android:theme="@style/Theme.DarbhangaBikes.Splash" />
-        
-        <!-- Auth Activity -->
-        <activity
-            android:name=".ui.auth.AuthActivity"
-            android:exported="false"
-            android:windowSoftInputMode="adjustResize" />
-        
-        <!-- Map Activity -->
-        <activity
-            android:name=".ui.map.MapActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        
-        <!-- Profile Activity -->
-        <activity
-            android:name=".ui.profile.ProfileActivity"
-            android:exported="false" />
-        
-    </application>
 
+        <service
+            android:name=".service.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@android:drawable/sym_def_app_icon" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+    </application>
+<intent-filter android:autoVerify="true">
+  <action android:name="android.intent.action.VIEW" />
+  <category android:name="android.intent.category.BROWSABLE" />
+  <category android:name="android.intent.category.DEFAULT" />
+  <data
+    android:scheme="https"
+    android:host="PROJECT_ID.firebaseapp.com or a custom hosting domain"
+    android:pathPrefix="/__/auth/links" />
+</intent-filter>
 </manifest>

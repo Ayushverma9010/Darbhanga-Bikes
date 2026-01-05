@@ -1,0 +1,730 @@
+[
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-ldpi_bike.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-ldpi/bike.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-hdpi_ic_opd.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-hdpi/ic_opd.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_ride_karo.jpeg.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/ride_karo.jpeg"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_rect_round_tinder_theme.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/rect_round_tinder_theme.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_blue_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/blue_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_exit.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/exit.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-xxxhdpi_google_pay.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-xxxhdpi/google_pay.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_beta.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/beta.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_green_pin.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/green_pin.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_ic_phone_call.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/ic_phone_call.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_ic_ride_karo_image.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/ic_ride_karo_image.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic__07_payment.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic__07_payment.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-mdpi_bike.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-mdpi/bike.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_fragment_invite_friends.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_invite_friends.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_girl_bitcoin.JPG.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/girl_bitcoin.JPG"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_ic_pin.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/ic_pin.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_rectangle_next.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_rectangle_next.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_favorite.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_favorite.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-hdpi_google_pay.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-hdpi/google_pay.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_fragment_ride_status.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_ride_status.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-xhdpi_google_pay.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-xhdpi/google_pay.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_whatsapp.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/whatsapp.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_left_bike_png.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/left_bike_png.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_medical.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_medical.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_sahre_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/sahre_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-hdpi_ic__01_settings.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-hdpi/ic__01_settings.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_rect_white.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/rect_white.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_cash.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_cash.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_share_ss.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/share_ss.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_requst_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/requst_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_bottom_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/bottom_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/mipmap-anydpi-v26_ic_rapido_logo.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/mipmap-anydpi-v26/ic_rapido_logo.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_phone_pay.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/phone_pay.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_chat.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/chat.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_baseline_payment_24.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_baseline_payment_24.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_chat.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_chat.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/mipmap-hdpi_motorbike.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/mipmap-hdpi/motorbike.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-anydpi-v24_google_pay.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-anydpi-v24/google_pay.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_circle_grey.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/circle_grey.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_baseline_arrow_forward_ios_24.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_baseline_arrow_forward_ios_24.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_rect_btn_google.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/rect_btn_google.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_button_rectangle_home.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/button_rectangle_home.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_get_help_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/get_help_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-xxhdpi_ic__01_settings.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-xxhdpi/ic__01_settings.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_cancel.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_cancel.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_rect_round_mob.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/rect_round_mob.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_blue_circle.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_blue_circle.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_green_circle.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/green_circle.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_invite_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/invite_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/mipmap-hdpi_ic_rapido_logo_foreground.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/mipmap-hdpi/ic_rapido_logo_foreground.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_green_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/green_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_paytm.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/paytm.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_user_contact_icon.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_user_contact_icon.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_google_btn_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/google_btn_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_red_pin.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/red_pin.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_safety.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_safety.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_baseline_content_copy_24.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_baseline_content_copy_24.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_referral.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/referral.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_apple_btn_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/apple_btn_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/font_opensansregular.ttf.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/font/opensansregular.ttf"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_splash_rapido_icon.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/splash_rapido_icon.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_profile.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_profile.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-xxhdpi_bike.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-xxhdpi/bike.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/mipmap-hdpi_ic_rapido_logo_round.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/mipmap-hdpi/ic_rapido_logo_round.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_fragment_profile.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/mipmap-hdpi_bike.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/mipmap-hdpi/bike.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_apple_logo_night.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_apple_logo_night.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-xhdpi_ic__01_settings.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-xhdpi/ic__01_settings.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-hdpi_bike.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-hdpi/bike.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-xxxhdpi_ic_opd.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-xxxhdpi/ic_opd.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_baseline_help_24.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_baseline_help_24.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_insurance.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_insurance.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_red_map_pin.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/red_map_pin.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-xxxhdpi_bike.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-xxxhdpi/bike.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_fragment_login.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_my_qr_code.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/my_qr_code.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_item_ride.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/item_ride.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic__05_covid.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic__05_covid.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_rect_facebook_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/rect_facebook_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-ldpi_ic__01_settings.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-ldpi/ic__01_settings.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-xhdpi_ic_opd.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-xhdpi/ic_opd.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_fragment_otp_verify.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_otp_verify.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_fragment_settings.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_baseline_notifications_24.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_baseline_notifications_24.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_telephone.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/telephone.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_fragment_rides.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_rides.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-xxhdpi_ic_opd.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-xxhdpi/ic_opd.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic__04_power_pass.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic__04_power_pass.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_rect_round_mon_vaccine.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/rect_round_mon_vaccine.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-mdpi_ic_opd.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-mdpi/ic_opd.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/font_lato_regular.ttf.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/font/lato_regular.ttf"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_baseline_search_24.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_covid_icon.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/covid_icon.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_rect_grey.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/rect_grey.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_circle_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/circle_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/font_indianrupee.ttf.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/font/indianrupee.ttf"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic__09_support.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic__09_support.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_fragment_home.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_ic_india.webp.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/ic_india.webp"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/navigation_nav_graph.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_ride_kro_cropped.jpeg.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/ride_kro_cropped.jpeg"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/xml_backup_rules.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_fragment_notifications.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_notifications.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_rect_round.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/rect_round.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_facebook2.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_facebook2.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_baseline_arrow_back_ios_24.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic__03_my_rides.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic__03_my_rides.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-mdpi_ic__01_settings.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-mdpi/ic__01_settings.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-xxhdpi_google_pay.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-xxhdpi/google_pay.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-ldpi_ic_opd.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-ldpi/ic_opd.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_actionbar_payment.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_actionbar_payment.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_logout.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_logout.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_baseline_location_on_24.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_baseline_location_on_24.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_rect_bg_code.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/rect_bg_code.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/font_lato_bold.ttf.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/font/lato_bold.ttf"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic__08_insurance.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic__08_insurance.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/mipmap-anydpi-v26_ic_rapido_logo_round.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/mipmap-anydpi-v26/ic_rapido_logo_round.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_invite_background.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/invite_background.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_wallet.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/wallet.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_scan.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/scan.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_edittext_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/edittext_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-anydpi-v24_bike.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-anydpi-v24/bike.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_fragment_payment.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_payment.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_about.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_about.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_bike_ride.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/bike_ride.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_redo.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/redo.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic__010_home.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic__010_home.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic__06_invite_friends.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic__06_invite_friends.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_acko.jpg.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/acko.jpg"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_rect_round_golden.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/rect_round_golden.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_search_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/search_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_back.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/back.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_fragment_booking_bottom_sheet.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_booking_bottom_sheet.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_telegram.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_telegram.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_bike_png.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/bike_png.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_activity_splash.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic__02_notification.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic__02_notification.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-mdpi_google_pay.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-mdpi/google_pay.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_fragment_power_pass.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_power_pass.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic__02_whatsapp.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic__02_whatsapp.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-anydpi-v24_ic__01_settings.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-anydpi-v24/ic__01_settings.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_services.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_services.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_claim_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/claim_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_lang.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_lang.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_coupon.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/coupon.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_red_circle.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/red_circle.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_covid_popup_dialog.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/covid_popup_dialog.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-ldpi_google_pay.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-ldpi/google_pay.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_pref.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_pref.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-xhdpi_bike.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-xhdpi/bike.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_ic_baseline_close_24.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/ic_baseline_close_24.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/font_productsansregular.ttf.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/font/productsansregular.ttf"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_vaccine_pic.jpeg.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/vaccine_pic.jpeg"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/font_lato_black.ttf.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/font/lato_black.ttf"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_rect_apple_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/rect_apple_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_rectangle_language.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_rectangle_language.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-v24_rect_round_mob.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable-v24/rect_round_mob.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_fragment_support.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/fragment_support.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_wallet.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_wallet.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_red_curve.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/red_curve.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_pass.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_pass.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-anydpi-v24_ic_opd.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-anydpi-v24/ic_opd.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable-xxxhdpi_ic__01_settings.png.flat",
+        "source": "com.froyo.darbhangabikes.app-pngs-68:/drawable-xxxhdpi/ic__01_settings.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/layout_activity_main.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/mipmap-hdpi_ic_rapido_logo.png.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/mipmap-hdpi/ic_rapido_logo.png"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_arrow.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/arrow.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_fb_btn_bg.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/fb_btn_bg.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/font_opensansbold.ttf.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/font/opensansbold.ttf"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_rectangle_button.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_rectangle_button.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/xml_data_extraction_rules.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_facebook.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_facebook.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_ic_ride.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/ic_ride.xml"
+    },
+    {
+        "merged": "com.froyo.darbhangabikes.app-merged_res-73:/drawable_rupee.xml.flat",
+        "source": "com.froyo.darbhangabikes.app-main-75:/drawable/rupee.xml"
+    }
+]

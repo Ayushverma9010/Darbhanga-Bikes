@@ -118,7 +118,7 @@ In Firebase Console, enable the following services:
 #### Step 2: Add API Key to Project
 
 The API key is already configured in the project:
-- Your API Key: `AIzaSyAVc7-bftMhFsDwsVk8B8yczSM2PkI8Bs0`
+- Your API Key: `AIzaSyBwmvCEBSpkvWDdLUj96u246Qmse5btfp0`
 - Location: `app/build.gradle` → `manifestPlaceholders`
 
 **Important:** For production, restrict your API key:

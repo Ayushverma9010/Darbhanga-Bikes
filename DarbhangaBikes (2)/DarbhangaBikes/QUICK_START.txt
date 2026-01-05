@@ -128,7 +128,7 @@ If everything worked:
 🔧 Project structure: See README.md
 
 Your Google Maps API Key (already configured):
-AIzaSyAVc7-bftMhFsDwsVk8B8yczSM2PkI8Bs0
+AIzaSyBwmvCEBSpkvWDdLUj96u246Qmse5btfp0
 
 Package Name (already set):
 com.froyo.darbhangabikes
