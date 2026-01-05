@@ -1,8 +1,0 @@
-
-{
-  "name": "Darbhanga Bikes",
-  "description": "Premium bike-taxi aggregator for Darbhanga, Bihar.",
-  "requestFramePermissions": [
-    "geolocation"
-  ]
-}
